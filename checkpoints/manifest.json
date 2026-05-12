@@ -1,0 +1,62 @@
+{
+  "project": "da6401-a3",
+  "entity": "rishabh-mishra-cer16-iitmaana",
+  "runs": {
+    "baseline": {
+      "name": "baseline",
+      "run_id": "mi4kcjor",
+      "test_bleu": 38.341962120428875,
+      "val_best_bleu": 39.67276503048891,
+      "ckpt_path": "checkpoints/baseline_best.pt",
+      "wall_minutes": 17.50234794219335
+    },
+    "ablation_2_1_noam": {
+      "name": "ablation_2_1_noam",
+      "run_id": "m5659wgk",
+      "test_bleu": 38.341962120428875,
+      "val_best_bleu": 39.67276503048891,
+      "ckpt_path": "checkpoints/ablation_2_1_noam_best.pt",
+      "wall_minutes": 17.31681436697642
+    },
+    "ablation_2_1_fixedlr": {
+      "name": "ablation_2_1_fixedlr",
+      "run_id": "390op7z8",
+      "test_bleu": 31.101483071072902,
+      "val_best_bleu": 30.66106617619059,
+      "ckpt_path": "checkpoints/ablation_2_1_fixedlr_best.pt",
+      "wall_minutes": 14.904680216312409
+    },
+    "ablation_2_2_scaling": {
+      "name": "ablation_2_2_scaling",
+      "run_id": "tzav07qc",
+      "test_bleu": 38.341962120428875,
+      "val_best_bleu": 39.67276503048891,
+      "ckpt_path": "checkpoints/ablation_2_2_scaling_best.pt",
+      "wall_minutes": 16.1593617161115
+    },
+    "ablation_2_2_noscaling": {
+      "name": "ablation_2_2_noscaling",
+      "run_id": "vzqtio61",
+      "test_bleu": 8.616033319780005,
+      "val_best_bleu": 15.60730045269544,
+      "ckpt_path": "checkpoints/ablation_2_2_noscaling_best.pt",
+      "wall_minutes": 23.233012572924295
+    },
+    "ablation_2_4_learnedpe": {
+      "name": "ablation_2_4_learnedpe",
+      "run_id": "pe0d3mns",
+      "test_bleu": 37.50798440471186,
+      "val_best_bleu": 38.301360581279596,
+      "ckpt_path": "checkpoints/ablation_2_4_learnedpe_best.pt",
+      "wall_minutes": 14.217024834950765
+    },
+    "ablation_2_5_smooth0": {
+      "name": "ablation_2_5_smooth0",
+      "run_id": "k4e7o42s",
+      "test_bleu": 37.015528375197675,
+      "val_best_bleu": 38.08556148089657,
+      "ckpt_path": "checkpoints/ablation_2_5_smooth0_best.pt",
+      "wall_minutes": 15.022339622179667
+    }
+  }
+}

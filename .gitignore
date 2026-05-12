@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# W&B local cache
+wandb/
+
+# Training artifacts
+logs/
+*.log
+
+# Large model checkpoints (kept on Drive instead -- too big for GitHub's 100MB/file limit)
+*.pt
+*.pth
+*.bin
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Hugging Face cache (sometimes ends up here)
+.cache/

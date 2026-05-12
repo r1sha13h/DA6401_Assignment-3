@@ -1,0 +1,11 @@
+torch>=2.3,<2.5
+numpy
+matplotlib
+scikit-learn
+wandb>=0.16
+datasets>=2.14
+spacy>=3.7
+tqdm
+sacrebleu>=2.4
+gdown
+wandb-workspaces>=0.3
