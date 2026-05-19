@@ -1,6 +1,6 @@
 # DA6401 Assignment 3 — Transformer NMT (DE → EN)
 
-`wandb report link`: https://api.wandb.ai/links/rishabh-mishra-cer16-iitmaana/j7awil40
+`wandb report link`: https://api.wandb.ai/links/rishabh-mishra-cer16-iitmaana/il1tmktr
 
 Implementation of "Attention Is All You Need" trained on Multi30k, plus the
 five required ablation studies and an automatically generated W&B report.
