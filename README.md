@@ -1,6 +1,6 @@
 # DA6401 Assignment 3 — Transformer NMT (DE → EN)
 
-'wandb report link': https://api.wandb.ai/links/rishabh-mishra-cer16-iitmaana/j7awil40
+`wandb report link`: https://api.wandb.ai/links/rishabh-mishra-cer16-iitmaana/j7awil40
 
 Implementation of "Attention Is All You Need" trained on Multi30k, plus the
 five required ablation studies and an automatically generated W&B report.
@@ -15,7 +15,6 @@ five required ablation studies and an automatically generated W&B report.
 | `train.py` | Loss, training loop, greedy decoding, BLEU eval, checkpoints, single-run entry point. |
 | `wandb_logging.py` | Native W&B plot helpers (no matplotlib images). |
 | `ablations.py` | Run baseline + all 5 ablations; writes `checkpoints/manifest.json`. |
-| `make_report.py` | Builds the public W&B report titled **A3** programmatically. |
 
 ## Setup
 
